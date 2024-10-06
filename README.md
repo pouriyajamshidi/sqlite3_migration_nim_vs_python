@@ -2,9 +2,9 @@
 
 Temp repo to seek advice on the speed difference between almost identical Nim and Python code to migrate sqlite3 data of [nginwho](https://github.com/pouriyajamshidi/nginwho) from v1 to v2 schema.
 
-The tests are run on database with **4,100,000** records but the actual production database contains **110,000,000** records and counting.
+Both the Nim and Python versions are run locally and operate on the same database file. The result is Python _always_ finishes **200~250** seconds _faster_ than Nim.
 
-Both the Nim and Python version are run locally and operate on the same database. The result is Python _always_ finishes **200~250** seconds _faster_ than Nim.
+The tests are run on a database with **4,100,000** records but the actual production database contains **110,000,000** records and counting.
 
 ## Program Versions
 
