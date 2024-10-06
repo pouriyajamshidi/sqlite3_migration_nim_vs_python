@@ -32,17 +32,17 @@ Python 3.12.7
 
 ### Nim 2.2.0 - ORC
 
-compiled with `nim c -d:release --opt:speed --mm:orc --threads:off migrate.nim` Executed in **626.82** secs
-compiled with `nim c -d:release --opt:speed --mm:orc --threads:on migrate.nim` -- Executed in **700.40** secs
+`nim c -d:release --opt:speed --mm:orc --threads:off migrate.nim` -- Executed in **626.82** secs
+`nim c -d:release --opt:speed --mm:orc --threads:on migrate.nim` -- Executed in **700.40** secs
 
 ### Nim 2.2.0 - ARC
 
-compiled with `nim c -d:release --opt:speed --mm:arc --threads:off migrate.nim` -- Executed in **667.15** secs
-compiled with `nim c -d:release --opt:speed --mm:arc --threads:on migrate.nim` -- Executed in **681.39** secs
+`nim c -d:release --opt:speed --mm:arc --threads:off migrate.nim` -- Executed in **667.15** secs
+`nim c -d:release --opt:speed --mm:arc --threads:on migrate.nim` -- Executed in **681.39** secs
 
 ### Python 3.12.7
 
-python3.12.7 migrate.py -- Executed in **428.27** secs
+`python3.12.7 migrate.py` -- Executed in **428.27** secs
 
 ## Nim profiler
 
